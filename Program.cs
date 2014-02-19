@@ -39,7 +39,6 @@ namespace producer_consumer
                 Buffer.Put(rnd.Next(0,10) + ID*1000);
                 Thread.Sleep(5);
             }
-
             this.stop();
         }
     }
