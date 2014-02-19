@@ -212,6 +212,7 @@ namespace producer_consumer
                 if (Monitor.IsEntered(this.Elements))
                     Monitor.Exit(this.Elements);
             }
+
             return taken;
         }
         
